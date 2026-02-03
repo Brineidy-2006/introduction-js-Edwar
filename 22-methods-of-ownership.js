@@ -8,7 +8,7 @@ const player = {
         console.log(`Paused..., ${id}`);
     },
 
-delete : function (id){
+"delete" : function (id){
     },
 
 }

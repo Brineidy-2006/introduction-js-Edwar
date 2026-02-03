@@ -1,6 +1,6 @@
 // Functions in JS
 // ¿Qué es Hoisting?
-// Hoisting en JS es el compotamiento por defecto en el que el interprete "Mueve" las declaraciones (de variables y funciones) a la parte superior de su ámbito (scope) antes de ejecutar el código.
+// Hoisting en JS es el comportamiento por defecto en el que el interprete "Mueve" las declaraciones (de variables y funciones) a la parte superior de su ámbito (scope) antes de ejecutar el código.
 // Esto significa que puedes usar una función o variable declarada, antes de escribirla en el código.
 
 // Declaración de una función

@@ -1,35 +1,30 @@
-// Arrays en JS
+// cuando se unen dos objetos lo iedeal es no modificar ninguno de los objetos
 
-const numbers =[10,20,30,40,50];
+const product ={
+    productName :"sensor de humedad",
+    price : 300,
+    available : true,
 
-console.log(numbers);
+}
 
-// Otra forma de visualización en tabla
-console.table(numbers);
+Object.freeze(product);
 
-// Crear un arreglo con el constructor
-const months = new Array("May", "January", "July", "June");
-console.log(months);
+// Objeto que almacena medidas
+const neasurements = {
+    weight: "1kg",
+    neasurements : "10cm",
+}
 
-const miArray = ["Hello", 19, true, false, null, {myName: "Brineidy", myJob: "Apprentice"}, [3172293]];
+// Rest operator , consta de tres puntos (...)
 
-// Consultar un elemento de un arreglo
-console.log(typeof numbers [21]);
-console.log(miArray[5]);
+const newProduct = {...product,...measurement};
+console.log(product);
+console.log(newProduct);
 
-// Método para conocer la longitd de un arreglo
-console.log("Brineidy tu arreglo tiene: " + numbers.length + " elementos" );
 
-// Un iterador con forEach
-
-const numbers2 = [10, 20, 30, 40, 50];
-numbers2.forEach(function(number){
-    console.log(number);
-})
-
-months.forEach(funtion(month){
-    console.log(month);
-})
-myArrays.forEach(funtion(element)) {
-    console.log(element);
-})
+const producto = {
+productName : "vehicle",
+model :"2006",
+brand : "Chevrolet Corsa",
+plate : "4k31bA2",
+}
